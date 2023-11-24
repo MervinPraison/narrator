@@ -26,6 +26,6 @@ while True:
     resized_img = screenshot_rgb.resize(new_size, Image.LANCZOS)
 
     # Save the frame as an image file
-    print("📸 Captured Chrome tab. Saving frame.")
+    print("📸 Captured Screen. Saving frame.")
     path = f"{frames_dir}/frame.jpg"
     resized_img.save(path)
